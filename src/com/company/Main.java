@@ -10,6 +10,6 @@ public class Main {
 	// write your code here
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com/");
-        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("selenium");
+        driver.findElement(By.xpath("//input[@name='q']")).sendKeys("seelenium");
     }
 }
